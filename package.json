@@ -3,15 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx mocha ./test/supertestApi"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
+  "type": "module",
   "dependencies": {
     "chai": "^5.1.2",
-    "mocha": "^11.1.0",
     "supertest": "^7.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^11.1.0"
   }
 }
